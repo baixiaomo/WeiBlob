@@ -9,16 +9,28 @@
 	<body>
 		<!--导航栏-->
 		<header>
-			<nav class="navbar navbar-default">
+			<nav class="navbar navbar-inverse" style="border-radius: 0;">
 				<div class="container">
 					<div class="navbar-header">
-						<a class="navbar-brand">微世界</a>
+						<a class="navbar-brand" style="color: white;font-family: SimHei;font-size: 25px;">微世界</a>
 					</div>
-					<ul class="nav navbar-nav navbar-left">
-						<li><a href="#">button1</a></li>
-						<li><a href="#">button1</a></li>
-						<li><a href="#">button1</a></li>
+					<ul class="nav navbar-nav navbar-left" style="font-family: SimHei;  font-size: 18px;">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">无涯</a></li>
+						<li><a href="#">流音</a></li>
+						<li class="active"><a href="#">千古</a></li>
 					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-cog"></span></a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input class="form-control" type="text" placeholder="search" />
+						</div>
+						<button type="submit" class="btn btn-success">SEARCH</button>
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					</form>
 					
 				</div>
 			</nav>
