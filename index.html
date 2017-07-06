@@ -41,7 +41,7 @@
 					</form>
 				</div>
 			</nav>
-			<img src="img/jumbotron.jpg" style="position: absolute;left:0;top:0;width: 100%;height: 300px; opacity: 1;z-index: -1;"/>
+			<!--<img src="img/jumbotron.jpg" style="position: absolute;left:0;top:0;width: 100%;height: 300px; opacity: 1;z-index: -1;"/>-->
 		</header>
 		<!--画廊-->
 		<!--<div id="gallery" style="margin-top: 120px;">
@@ -70,7 +70,14 @@
 				</ul>
 			</div>
 		</div>-->
-		<div class="container" style="width: 75%;margin-top: 250px;">
+		<div class="container-fluid" style="margin-top: -20px;">
+			<div class="row">
+				<div class="panel panel-default">
+					<img src="img/jumbotron.jpg" style="width: 100%;height: 200px; opacity: 1;z-index: -1;"/>
+				</div>
+			</div>
+		</div>
+		<div class="container" style="width: 75%;">
 			<div class="row">
 				<div class="col-lg-9">
 					<ul class="nav nav-tabs">
@@ -88,19 +95,23 @@
 											<div class="col-md-2">
 												<img src="images/small/6.jpg" style="width: 80px;height: 80px;margin: 0 auto;"/>
 											</div>
-											<div class="col-md-10">
+											<div class="col-md-9">
 												<div>
 													<p style="font-family: SimHei;">最近在做一个基于JAVA Servlet的WEB应用以及对应的Anroid应用客户端的开发工作。
 其中，在接口的访问和数据的传输方面使用的比较多的是使用JSON对象来操作格式化数据：在服。</p>
 												</div>
 											</div>
-											
+											<div class="col-md-1">
+												<button class="btn btn-default btn-sm" style="margin-top: 30px;">查看</button>
+											</div>
 										</div>
 									</div>
 								</div>
 								<div class="panel-footer" style="padding: 2px;">
-									<div style="width: 20%;margin-left: 80%;">
-										aa
+									<div style="width: 40%;margin-left: 70%; font-family: SimHei;color: grey;">
+										<span class="glyphicon glyphicon-eye-open"></span>&nbsp;2000&nbsp;
+										<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;2000&nbsp;
+										<span class="glyphicon glyphicon-edit"></span>&nbsp;2000&nbsp;
 									</div>
 								</div>
 							</div>
